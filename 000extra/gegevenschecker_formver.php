@@ -51,14 +51,7 @@ if (!checkdate($maand, $dag, $jaar)) {
 }
 ?>
 
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="author" content="Yarne Decuyper">
-        <title>Gegevenschecker uitvoering</title>
-    </head>
-    <body>
+<?php include('../inc/header.php'); ?>
 
         <?php if (count($fouten)): ?>
 
@@ -78,7 +71,5 @@ if (!checkdate($maand, $dag, $jaar)) {
                 <li>Geboortedatum : <?php echo $geboortedatum->format('d-m-Y'); ?></li>
             </ul>
             
-        <?php endif; ?>
-
-    </body>
-</html>
+        <?php endif;
+        include('../inc/footer.php');

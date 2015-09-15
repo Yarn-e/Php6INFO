@@ -1,0 +1,54 @@
+body {
+    background-color : rgb(36,36,36);
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+header {
+    width: 80%;
+    margin: 0 auto;
+    padding : 5px;
+    text-align: center;
+    background-color: #800000;
+    border-radius: 10px 10px 0 0;
+    color: #fff;
+    border: 1px solid black;
+}
+
+footer {
+    width: 80%;
+    margin: 0 auto;
+    padding : 5px;
+    text-align: center;
+    background-color: #800000;
+    border-radius: 0 0 10px 10px;
+    color: #fff;
+    border: 1px solid black;
+}
+
+section {
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgba(255,255,255,0.9);
+    padding : 5px;
+    color: black;
+    border: 1px solid black;
+}
+
+.centreren {
+    text-align: center;
+}
+
+label {
+    position: relative;
+    clear: left;
+    float: left;
+    width: 150px;
+    margin-right: 5px;
+    line-height: 1.4em;
+    text-align: right;
+}
+
+.form_buttons {
+   padding-left: 155px;
+}
