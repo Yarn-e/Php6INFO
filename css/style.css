@@ -49,6 +49,45 @@ label {
     text-align: right;
 }
 
+.links {
+    position: relative;
+    clear: left;
+    float: left;
+    width: 150px;
+    margin-right: 5px;
+    line-height: 1.4em;
+    text-align: right;
+}
+
+.linksgroot {
+    position: relative;
+    clear: left;
+    float: left;
+    width: 220px;
+    margin-right: 5px;
+    line-height: 1.4em;
+    text-align: right;
+}
+
 .form_buttons {
-   padding-left: 155px;
+    padding-left: 155px;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}
+table, tr, td, th {
+    border: 1px solid black;
+}
+table {
+    border-collapse: collapse;
+}
+tr:nth-child(even) {
+    background-color: rgb(255,255,255);
+    color: black;
+}
+
+tr:nth-child(odd) {
+    background-color: rgba(50,0,0,0.9);
 }

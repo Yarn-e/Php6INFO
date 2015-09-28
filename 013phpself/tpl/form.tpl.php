@@ -1,14 +1,11 @@
 <?php include(__DIR__ . '/../../inc/header.php'); ?>
 
-<?php if (count($fouten)): ?>
-    <?php include(__DIR__ . '/error.tpl.php'); ?>
-<?php endif; ?>
 
 <form name="f" method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
-    <label for="naam">Naam:</label>
-    <input type="text" name="naam" id="naam" value="<?php echo $data['naam']; ?>"><br><br>
     <label for="voornaam">Voornaam:</label>
     <input type="text" name="voornaam" id="voornaam" value="<?php echo $data['voornaam']; ?>"><br><br>
+    <label for="naam">Naam:</label>
+    <input type="text" name="naam" id="naam" value="<?php echo $data['naam']; ?>"><br><br>
     <label>Geboortedatum:</label>
     <select name="dag">
         <option value="">- kies -</option>  
@@ -42,5 +39,9 @@
     </select><br><br>
     <div class="form_buttons"><input type="submit" name="verzenden" value="Doorgaan"></div>
 </form>
+
+<?php if (count($fouten)): ?>
+    <?php include(__DIR__ . '/error.tpl.php'); ?>
+<?php endif; ?>
 
 <?php include(__DIR__ . '/../../inc/footer.php'); ?>
