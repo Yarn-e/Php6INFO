@@ -52,3 +52,8 @@ label {
 .form_buttons {
    padding-left: 155px;
 }
+
+.error {
+    color: red;
+    font-weight: bold;
+}

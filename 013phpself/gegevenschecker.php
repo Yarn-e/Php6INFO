@@ -4,11 +4,10 @@ $days = range(1, 31);
 $months = range(1, 12);
 $yearNow = date('Y');
 $years = range($yearNow, $yearNow - 75);
-$teverwerken = true;
 
 $fouten = array();
 //Array me velden van formulier.
-$formuliervelden = array('naam', 'voornaam', 'dag', 'maand', 'jaar');
+$formuliervelden = array('voornaam', 'naam', 'dag', 'maand', 'jaar');
 //Array voor data uit post.
 $data = array_fill_keys($formuliervelden, null);
 
