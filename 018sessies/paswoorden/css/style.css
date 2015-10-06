@@ -1,0 +1,77 @@
+/* Standard *******************************************************************/
+
+body {
+    background-color : rgb(36,36,36);
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+header,section,article,footer {
+    width: 400px;
+    margin: 0 auto;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+header, footer {
+    text-align: center;
+    background-color: #800000;
+    color: #fff;
+}
+
+header {
+    border-radius: 10px 10px 0 0;
+}
+
+footer {
+    border-radius: 0 0 10px 10px;
+}
+
+section {
+    background-color: rgba(255,255,255,0.9);
+    color: black;
+}
+label span{
+    position: relative;
+    clear: left;
+    float: left;
+    width: 150px;
+    margin-right: 5px;
+    line-height: 1.4em;
+    text-align: right;
+}
+
+/* Classes ********************************************************************/
+
+.centreren {
+    text-align: center;
+}
+
+/* Buttons ********************************************************************/
+
+button{
+    margin: 0 7px 0 0;
+    background-color: #f5f5f5;
+    border: 1px solid #dedede;
+    border-top: 1px solid #eee;
+    border-left: 1px solid #eee;    
+    font-size: 100%;
+    line-height: 130%;
+    font-weight: bold;
+    color: #565656;
+    cursor: pointer;
+    padding: 5px 10px 6px 7px; /* Links */
+    width:auto;
+    overflow:visible;
+    padding:4px 10px 3px 7px; /* IE6 */
+}
+button img{
+    margin:0 3px -3px 0 !important;
+    padding:0;
+    border:none;
+    width:16px;
+    height:16px;
+}
+button:hover {
+    color: green;
+}

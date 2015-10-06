@@ -1,0 +1,82 @@
+body {
+    background-color: lightgrey;    
+}
+
+header, section, article, footer {
+    width: 500px;
+    margin: 0 auto;
+    padding: 5px;
+    border: 1px solid #800000;
+}
+
+header, footer {
+    text-align: center;
+    background-color: #800000;
+    color: #fff;    
+}
+
+header {
+    border-radius: 10px 10px 0 0;    
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+section {
+    background-color: #fff;
+    color: #800000;
+}
+
+footer {
+    border-radius: 0 0 10px 10px;
+    margin-bottom: 20px;
+}
+.centreren {
+    text-align: center;
+}
+label span{
+    position: relative;
+    clear: left;
+    float: left;
+    width: 100px;
+    margin-right: 5px;
+    line-height: 1.4em;
+    text-align: right;
+}
+/* BUTTONS */
+button{
+    margin: 0 7px 0 0;
+    background-color: #f5f5f5;
+    border: 1px solid #dedede;
+    border-top: 1px solid #eee;
+    border-left: 1px solid #eee;    
+    font-family: "Lucida Grande", Tahoma, Arial, Verdana, sans-serif;
+    font-size: 100%;
+    line-height: 130%;
+    font-weight: bold;
+    color: #565656;
+    cursor: pointer;
+    padding: 5px 10px 6px 7px; /* Links */
+    width:auto;
+    overflow:visible;
+    padding:4px 10px 3px 7px; /* IE6 */
+}
+button img.klein{
+    margin:0 3px -3px 0 !important;
+    padding:0;
+    border:none;
+    width:16px;
+    height:16px;
+}
+button:hover {
+    color: green;
+}
+input {
+    width: 300px;        
+}
+#knop1{
+    width: 150px;
+}
+#knop{
+    width: 150px;
+    float: right;
+}

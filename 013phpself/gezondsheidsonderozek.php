@@ -1,4 +1,5 @@
 <?php
+
 define('LOADED', 'YES');
 $days = range(1, 31);
 $months = range(1, 12);
@@ -50,6 +51,8 @@ if (!checkdate($data['maand'], $data['dag'], $data['jaar'])) {
 } else {
     $geboortedatum = new DateTime($data['dag'] . '-' . $data['maand'] . '-' . $data['jaar']);
 }
+
+
 
 //Fouten tonen
 if (count(array_filter($fouten))) {
