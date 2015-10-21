@@ -2,6 +2,20 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+<<<<<<< HEAD
         <group/>
+=======
+        <group>
+<<<<<<< HEAD
+            <file>file:/C:/xampp/htdocs/Php6INFO/013phpself/tpl4/resultaat.tpl.php</file>
+            <file>file:/C:/xampp/htdocs/Php6INFO/013phpself/tpl4/form.tpl.php</file>
+            <file>file:/C:/xampp/htdocs/Php6INFO/013phpself/gezondsheidsonderozek.php</file>
+            <file>file:/C:/xampp/htdocs/Php6INFO/013phpself/tpl4/error.tpl.php</file>
+=======
+            <file>file:/C:/xampp/htdocs/Php6INFO/000_toetsen/toets1Yarne/Toets1verwerking.php</file>
+            <file>file:/C:/xampp/htdocs/Php6INFO/000extra/php.php</file>
+>>>>>>> c20d5f920be70819348a64c1fd3831c7a4d62a69
+        </group>
+>>>>>>> 399ee81c0df33913d276447bf82f2b87e64f7889
     </open-files>
 </project-private>
