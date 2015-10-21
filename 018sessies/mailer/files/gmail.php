@@ -1,7 +1,8 @@
+
+
 <?php
 //Session starten.
 session_start();
-
 //Controleren of ingelogd.
 if (!isset($_SESSION['logged_in'])) {
     header('Location:./../login.php');

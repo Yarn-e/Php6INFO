@@ -20,7 +20,7 @@ include("credentials.php");
             function signOut() {
                 var auth2 = gapi.auth2.getAuthInstance();
                 auth2.signOut();
-                window.location.href = 'index.php?signout=true';
+                window.location.href = 'login.php?signout=true';
             }
         </script>
     </head>

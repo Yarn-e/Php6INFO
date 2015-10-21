@@ -11,7 +11,6 @@ $pwcontrole = 'VoorBeeld';
 
 //Controle
 if (isset($_POST['IDnr'])) {
-    echo 'LELEA';
         $_SESSION['logged_in'] = true;
         $_SESSION['ID'] = $_POST['IDnr'];
         header('Location:./files/gmail.php');

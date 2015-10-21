@@ -39,6 +39,10 @@ section {
     text-align: center;
 }
 
+.cent {
+    margin: 0 auto;
+}
+
 label {
     position: relative;
     clear: left;
@@ -90,6 +94,7 @@ tr:nth-child(even) {
 
 tr:nth-child(odd) {
     background-color: rgba(50,0,0,0.9);
+    color: white;
 }
 
 .error {
@@ -101,4 +106,8 @@ tr:nth-child(odd) {
     width: 400px;
     position: relative;
     margin-left: 155px;
+}
+
+.vinger {
+    cursor: pointer;
 }
