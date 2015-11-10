@@ -2,11 +2,21 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+        <group/>
+=======
+>>>>>>> 6f68a1eeb6e7ffda23177530b5eaf2de0e562d01
         <group>
             <file>file:/C:/xampp/htdocs/Php6INFO/023bootstrap/Bootstrap%20jumbotron/index.php</file>
             <file>file:/C:/xampp/htdocs/Php6INFO/023bootstrap/footer.php</file>
             <file>file:/C:/xampp/htdocs/Php6INFO/023bootstrap/bootstrap-3.3.5-dist/css/jumbotron.css</file>
             <file>file:/C:/xampp/htdocs/Php6INFO/023bootstrap/header.php</file>
         </group>
+<<<<<<< HEAD
+=======
+>>>>>>> 399ee81c0df33913d276447bf82f2b87e64f7889
+>>>>>>> 6f68a1eeb6e7ffda23177530b5eaf2de0e562d01
     </open-files>
 </project-private>
